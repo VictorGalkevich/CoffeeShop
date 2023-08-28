@@ -1,5 +1,5 @@
-﻿using CoffeShop.entity;
-using CoffeShop.exception;
+﻿using CoffeeShop.entity;
+using CoffeeShop.exception;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeShop.dao
+namespace CoffeeShop.dao
 {
     internal class OrderDaoImpl : OrderDao
     {
@@ -48,7 +48,7 @@ namespace CoffeShop.dao
                 return command.ExecuteNonQuery();
             }catch (Exception ex)
             {
-                throw new DaoException("Exception in insert block" + ex.Message);
+                throw new DaoException("Exception in insert block\n" + ex.Message);
             }
         }
 

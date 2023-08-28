@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeShop.view
+namespace CoffeeShop.view
 {
     internal class OrderCreatedForm
     {

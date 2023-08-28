@@ -1,12 +1,12 @@
-﻿using CoffeShop.dao;
-using CoffeShop.entity;
+﻿using CoffeeShop.dao;
+using CoffeeShop.entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeShop.view
+namespace CoffeeShop.view
 {
     internal class CreateOrderForm
     {

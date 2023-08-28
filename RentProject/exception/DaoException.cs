@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeShop.exception
+namespace CoffeeShop.exception
 {
     internal class DaoException : Exception
     {

@@ -1,11 +1,11 @@
-﻿using CoffeShop.entity;
+﻿using CoffeeShop.entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeShop.dao
+namespace CoffeeShop.dao
 {
     internal interface OrderDao : Dao<Order>
     {

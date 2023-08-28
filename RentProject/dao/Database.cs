@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeShop.dao
+namespace CoffeeShop.dao
 {
     internal class Database
     {
