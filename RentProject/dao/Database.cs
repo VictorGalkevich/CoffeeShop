@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.dao
 {
-    internal class Database
+    public class Database
     {
         private readonly static MySqlConnection connection = new("server=localhost;port=3306;username=root;password=root;database=orders");
 

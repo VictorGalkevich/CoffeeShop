@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.dao
 {
-    internal interface Dao<T>
+    public interface Dao<T>
     {
         T getById(int id);
         List<T> getAll();

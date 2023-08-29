@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.entity
 {
-    internal class HouseBlend : Beverage
+    public class HouseBlend : Beverage
     {
         private static readonly HouseBlend INSTANCE = new();
 

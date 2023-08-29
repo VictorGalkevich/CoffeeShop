@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.view
 {
-    internal static class OrderCreatedForm
+    public static class OrderCreatedForm
     {
         public static void onSuccess()
         {

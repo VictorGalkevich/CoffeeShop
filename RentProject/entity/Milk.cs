@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.entity
 {
-    internal class Milk : CondimentDecorator
+    public class Milk : CondimentDecorator
     {
         private readonly Beverage beverage;
 

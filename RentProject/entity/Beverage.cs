@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.entity
 {
-    internal abstract class Beverage
+    public abstract class Beverage
     {
         protected string description = "description";
 

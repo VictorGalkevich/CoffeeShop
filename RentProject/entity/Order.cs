@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.entity
 {
-    internal class Order
+    public class Order
     {
         private static int id;
-        private int idorder;
+        private readonly int idorder;
 
         private readonly Client client;
 

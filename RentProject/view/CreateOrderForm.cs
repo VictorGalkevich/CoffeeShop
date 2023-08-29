@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.view
 {
-    internal static class CreateOrderForm
+    public static class CreateOrderForm
     {
 
         private static bool flag = true;

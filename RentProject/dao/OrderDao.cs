@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.dao
 {
-    internal interface OrderDao : Dao<Order>
+    public interface OrderDao : Dao<Order>
     {
         public new int delete(Order t);
 

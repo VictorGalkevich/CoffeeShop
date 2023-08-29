@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.entity
 {
-    internal abstract class CondimentDecorator : Beverage
+    public abstract class CondimentDecorator : Beverage
     {
         public new abstract string getDescription();
     }

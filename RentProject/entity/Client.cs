@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.entity
 {
-    internal class Client
+    public class Client
     {
-        public string name;
+        private readonly string name;
 
         public Client(string name) {
             this.name = name;

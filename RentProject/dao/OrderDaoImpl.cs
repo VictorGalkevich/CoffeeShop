@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.dao
 {
-    internal class OrderDaoImpl : OrderDao
+    public class OrderDaoImpl : OrderDao
     {
         private static readonly OrderDaoImpl INSTANCE = new OrderDaoImpl();
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.exception
 {
-    internal class DaoException : Exception
+    public class DaoException : Exception
     {
         public DaoException()
         {
